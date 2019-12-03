@@ -102,4 +102,8 @@ public class MainActivity extends BaseActivity {
     protected int layoutId() {
         return R.layout.activity_main;
     }
+
+    public void gotoFirst(){
+        vp.setCurrentItem(0);
+    }
 }
